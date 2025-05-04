@@ -19,3 +19,9 @@ Now do "mkdir S3" (creates a new S3 directory)
 
 
 "my note": when we modify the data ,first we should commit and push by dvc after that we do add.commit,push by git
+TO ROLL BACK FOR PARTICULAR VERSION
+ 
+ by using "git log --oneline" command shows git sha ids
+ choose a which version of sha id want
+ then by "git checkout <sha id>" we will roll back to that version of code
+ then if want the data of that particular version use"dvc pull" by that we get data
